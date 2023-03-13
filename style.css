@@ -1,0 +1,40 @@
+/*------
+ Font import
+ -------*/
+ <style>
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+</style>
+
+/* ----------
+Common Style
+----------- */
+
+.body{
+    font-family: 'Work Sans', sans-serif;
+   
+}
+main{
+    margin: 0 240px;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu li{
+    margin-left: 5em;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+
