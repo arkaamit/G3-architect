@@ -1,13 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@400;700;900&display=swap');
+
+/* 
+---------- Common Style ------------- 
+*/
 body{
     font-family: 'Work Sans', sans-serif;
     margin: 0;
 }
 
+.btn{
+    background: #FF900E;
+    border-radius: 10px;
+    width: 180px;
+    height: 65px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+/* 
+------- Head Section ---------  
+*/
 .head{
     background:rgba(255, 144, 14, 0.1);
 }
+
+/* 
+--------- Nav Options ---------- 
+*/
 
 .nav-menu{
     display: flex;
@@ -33,4 +55,25 @@ body{
     margin-left: 2em;
     font-weight: 500;
     font-size: 18px;
+}
+
+/* 
+------- Website Title Section -----------  
+*/
+
+.content-head{
+    margin: 50px 530px;
+    text-align: center;
+}
+.content-title{
+    font-size: 50px;
+}
+.content-article{
+    color: #727272;
+}
+
+.img-section{
+    max-width: 1440px;
+    margin: 0px auto;
+    padding-bottom: 50px;
 }
