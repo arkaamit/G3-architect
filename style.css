@@ -7,17 +7,27 @@
 body{
     font-family: 'Work Sans', sans-serif;
     margin: 0;
+   
+}
+a{
+    text-decoration: none;
+    color:  #424242;
 }
 
 .btn{
     background: #FF900E;
+    border: 0;
     border-radius: 10px;
-    width: 180px;
-    height: 65px;
     text-align: center;
     color: #FFFFFF;
     font-size: 20px;
     margin-top: 16px;
+    padding: 18px 35px;
+}
+
+main{
+    max-width: 1440px;
+    margin: 0px auto;    
 }
 
 /* 
@@ -38,6 +48,11 @@ body{
     padding: 50px 230px;
 }   
 
+.nav-title{
+    color: #131313;
+    font-size: 40px;
+}
+
 .nav-options ul{
     display: flex;
     justify-content: space-around;
@@ -46,15 +61,11 @@ body{
   
 }
 
-.nav-title{
-    color: #131313;
-    font-size: 30px;
-}
-
 .nav-options li{
     margin-left: 2em;
     font-weight: 500;
     font-size: 18px;
+    
 }
 
 /* 
@@ -76,4 +87,46 @@ body{
     max-width: 1440px;
     margin: 0px auto;
     padding-bottom: 50px;
+}
+
+
+/* 
+----------- Feature Container ------------
+*/
+
+.feature-container{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    gap: 70px;
+}
+
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+}
+
+.feature-title{
+    font-size: 45px;
+    color: #727272;
+    width: 468px;
+    margin-bottom: 24px;
+
+}
+
+.text-primary{
+    color: #131313;
+}
+
+.text-second{
+    color:#FF900E;
+}
+
+.feature-content{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    width: 537px;
 }
