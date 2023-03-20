@@ -1,40 +1,36 @@
-/*------
- Font import
- -------*/
- <style>
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-</style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans&display=swap');
 
-/* ----------
-Common Style
------------ */
-
-.body{
+body{
     font-family: 'Work Sans', sans-serif;
-   
-}
-main{
-    margin: 0 240px;
-
+    margin: 0;
 }
 
-.nav{
+.head{
+    background:rgba(255, 144, 14, 0.1);
+}
+
+.nav-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+    padding: 50px 230px;
+}   
 
-.nav-menu ul{
-    list-style: none;
+.nav-options ul{
     display: flex;
+    justify-content: space-around;
+    list-style: none;
     align-items: center;
+  
 }
 
-.nav-menu li{
-    margin-left: 5em;
+.nav-title{
+    color: #131313;
+    font-size: 30px;
+}
+
+.nav-options li{
+    margin-left: 2em;
     font-weight: 500;
     font-size: 18px;
 }
-
-
-
