@@ -112,7 +112,7 @@ main{
     font-size: 45px;
     color: #727272;
     width: 468px;
-    margin-bottom: 24px;
+    margin-bottom: 24px;    
 
 }
 
@@ -166,4 +166,40 @@ font-size: 16px;
 color: #727272;
 width: 580px;
 }
+
+.ex-image{
+    position: relative;
+}
+
+.btn-2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #FF900E;
+    border: 0;
+    border-radius: 8px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0px 40px 40px 40px;   
+}
+
+.btn-title{
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: 'Work Sans';
+}
+
+.font-size-small{ 
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'Work Sans';
+  
+}
+
+.ex-image img{
+    padding: 15px;
+}
+
+
 
