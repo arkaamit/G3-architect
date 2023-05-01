@@ -15,14 +15,39 @@ a{
 }
 
 .btn{
-    background: #FF900E;
-    border: 0;
+    background: none;
     border-radius: 10px;
+    border: 1px solid #FF900E;
     text-align: center;
     color: #FFFFFF;
     font-size: 20px;
     margin-top: 16px;
     padding: 18px 35px;
+    cursor: pointer;
+    transition: 0.8s;
+    position: relative;
+    
+}
+
+.btn:hover{
+color: black;
+}
+
+.btn::before{
+    content: "";
+    position: absolute;
+    border-radius: 10px;
+    left: 0;
+    width: 100%;
+    background: #FF900E;
+    z-index: -1;
+    transition: 0.8s;
+    height: 100%;
+    top:0;   
+}
+
+.btn:hover::before{
+height: 0%;
 }
 
 main{
@@ -58,6 +83,7 @@ main{
     justify-content: space-around;
     list-style: none;
     align-items: center;
+   
   
 }
 
@@ -65,8 +91,23 @@ main{
     margin-left: 2em;
     font-weight: 500;
     font-size: 18px;
+
     
 }
+.nav-options a:hover{
+    color: #FFFFFF;     
+}
+
+.nav-options  li:hover{
+    width: 200px;
+    height: 50px;
+    color: #FFFFFF;
+    padding-top: 25px;
+    text-align: center;
+    background-color: orange;
+    transition: 0.8s;  
+}
+
 
 /* 
 ------- Website Title Section -----------  
@@ -104,8 +145,8 @@ main{
 .image-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-row-gap: 24px;
-    grid-column-gap: 24px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
 }
 
 .feature-title{
@@ -248,7 +289,7 @@ main{
 
 .box{
     border: 1px solid #FF900E;
-    border-radius: 8px;
+    border-radius: 20px;
     text-align: center;
     padding: 35px;
     
@@ -317,6 +358,11 @@ color: #727272;
     filter: grayscale(100%);
 }
 
+.sponspor-details img:hover{
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+
 /*----------
  Footer-Section 
  ------------*/
@@ -332,3 +378,5 @@ footer{
     font-weight: 400;
     font-size: 20px;
 }
+
+
